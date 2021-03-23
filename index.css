@@ -1,0 +1,55 @@
+:root{
+    --mp-bg: #0D102A;
+}
+
+.nav-bg{
+    background-color: var(--mp-bg);
+}
+
+.left-side{
+    width: 70%;
+    display: inline-block;
+}
+
+.top-album a img:hover{
+    transition: all 1s;
+    filter: grayscale(100%);
+}
+
+.latest-release:hover{
+    background-color: #424561;
+    border-radius: 5px;
+}
+
+.station:hover{
+    transition: all 1s;
+    filter: grayscale(100%);
+}
+
+.right-side{
+    width: 26%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+ol li{
+    counter-increment: list;
+    margin-top: 0.6em;
+    padding: 0.4em;
+    border-radius: 15px;
+}
+
+ol li::before{
+    color: #777;
+    content: counter(list) ".";
+    margin-right: 0.5em;
+}
+
+ol li:hover{
+    background-color: #424561;
+}
+
+.fa-heart{
+    margin-left: 5em;
+}
