@@ -11,27 +11,13 @@
     display: inline-block;
 }
 
-.top-album a img:hover{
-    transition: all 1s;
-    filter: grayscale(100%);
+.header-bg{
+    background-color: #141B41;
 }
 
-.latest-release:hover{
-    background-color: #424561;
-    border-radius: 5px;
+.play-btn{
+    background-image: linear-gradient(to right, #3A25B1, #C649E0);
 }
-
-.station:hover{
-    transition: all 1s;
-    filter: grayscale(100%);
-}
-
-.right-side{
-    width: 26%;
-    display: inline-block;
-    vertical-align: top;
-}
-
 
 ol li{
     counter-increment: list;
@@ -47,5 +33,14 @@ ol li::before{
 }
 
 ol li:hover{
+    background-color: #424561;
+}
+
+.right-side{
+    width: 26%;
+    display: inline-block;
+    vertical-align: top;
+}
+.similar-artist:hover{
     background-color: #424561;
 }

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Playlist</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./single-playlist.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./images/apple-touch-icon.png"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1 minimum-scale=1"
+    />
+  </head>
+  <body class="nav-bg">
+    <nav class="navbar navbar-expand-lg navbar-dark nav-bg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/favicon-32x32.png" alt="Logo" class="" />
+          Music<sup>Player</sup></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Favorite</a>
+            </li>
+          </ul>
+          <div class="btn-group dropstart">
+            <button
+              type="button"
+              class="btn dropdown-toggle"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fas fa-bell m-3 fs-5 text-light"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li>
+                <a class="dropdown-item" href="#"
+                  >Checkout Justin Bieber's Justice</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  >Listen, Blinding Lights by weeknd</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  >Coldplay is here to get yo closer to your soul</a
+                >
+              </li>
+            </ul>
+          </div>
+          <a class="navbar-brand" href="#">
+            <img
+              src="./images/manan.jpg"
+              alt=""
+              width="40"
+              height="30"
+              class="d-inline-block ml-2 rounded-circle"
+            />
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!--MAIN-->
+    <main class="left-side">
+      <div class="container">
+        <!--HEADER-->
+        <header>
+          <div class="card mb-3 ms-4 header-bg shadow" style="width: 100%;">
+            <div class="row g-0">
+              <div
+                class="col-md-4 d-flex justify-content-center align-items-center"
+              >
+                <img src="./images/blinding-lights.png" alt="..." />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body mt-4">
+                  <div class="title-album d-flex justify-content-between">
+                    <h4 class="card-title text-light">The Weeknd</h4>
+                    <p class="text-light">851 Followers</p>
+                  </div>
+                  <p class="card-text">
+                    <small class="text-muted"
+                      >Canadian singer, Song writer, Performer</small
+                    >
+                  </p>
+                  <p class="card-text text-light">
+                    Abel Makkonen Tesfaye (born February 16, 1990), known
+                    professionally as the Weeknd, is a Canadian singer,
+                    songwriter, and record producer Noted for his versatility in
+                    vocal style,music production, and eccentric presentation,the
+                    Weeknd is often cited as an influence to contemporary music,
+                    as well as by other artists. Primarily produced by the
+                    Weeknd, it features a variety of producers, including
+                    DaHeala, Illangelo, Max Martin, Metro Boomin, and OPN, most
+                    of whom the Weeknd had worked with previously.
+                  </p>
+                  <button type="button" class="btn text-light play-btn px-5">
+                    Play All
+                  </button>
+                  <button type="button" class="btn text-light ms-5 ">
+                    Follow
+                  </button>
+                  <p class="card-text mt-1 ps-2">
+                    <small class="text-light">247 tracks| 47 albums</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <section>
+          <ol>
+            <li class="d-flex justify-content-between header-bg p-3 ms-3 shadow">
+              <img src="./images/blinding-lights.png" width="40px" height="40">
+              <p class="text-light w-75">Blinding Lights</p>
+              <i class="far fa-heart text-light"></i>
+              <i class="fas fa-plus text-light"></i>
+            </li>
+            <li class="d-flex justify-content-between header-bg p-3 ms-3 shadow">
+              <img src="./images/save-the-tears.jpg" width="40px" height="40">
+              <p class="text-light w-75">Save The Tears</p>
+              <i class="far fa-heart text-light"></i>
+              <i class="fas fa-plus text-light"></i>
+            </li>
+            <li class="d-flex justify-content-between header-bg p-3 ms-3 shadow">
+              <img src="./images/save-the-tears.jpg" width="40px" height="40">
+              <p class="text-light w-75">Snow Child</p>
+              <i class="far fa-heart text-light"></i>
+              <i class="fas fa-plus text-light"></i>
+            </li>
+            <li class="d-flex justify-content-between header-bg p-3 ms-3 shadow">
+              <img src="./images/blinding-lights.png" width="40px" height="40">
+              <p class="text-light w-75">Heartless</p>
+              <i class="far fa-heart text-light"></i>
+              <i class="fas fa-plus text-light"></i>
+            </li>
+            <li class="d-flex justify-content-between header-bg p-3 ms-3 shadow">
+              <img src="./images/save-the-tears.jpg" width="40px" height="40">
+              <p class="text-light w-75">After Hours</p>
+              <i class="far fa-heart text-light"></i>
+              <i class="fas fa-plus text-light"></i>
+            </li>
+            <li class="d-flex justify-content-between header-bg p-3 ms-3 shadow">
+              <img src="./images/often.jpg" width="40px" height="40">
+              <p class="text-light w-75">Often</p>
+              <i class="far fa-heart text-light"></i>
+              <i class="fas fa-plus text-light"></i>
+            </li>
+            <li class="d-flex justify-content-between header-bg p-3 ms-3 shadow">
+              <img src="./images/starboy.png" width="40px" height="40">
+              <p class="text-light w-75">Starboy</p>
+              <i class="far fa-heart text-light"></i>
+              <i class="fas fa-plus text-light"></i>
+            </li>
+            <li class="d-flex justify-content-between header-bg p-3 ms-3 shadow">
+              <img src="./images/call-out.png.crdownload" width="40px" height="40">
+              <p class="text-light w-75">Call Out My Name</p>
+              <i class="far fa-heart text-light"></i>
+              <i class="fas fa-plus text-light"></i>
+            </li>
+            <li class="d-flex justify-content-between header-bg p-3 ms-3 shadow">
+              <img src="./images/often.jpg" width="40px" height="40">
+              <p class="text-light w-75">The Hills</p>
+              <i class="far fa-heart text-light"></i>
+              <i class="fas fa-plus text-light"></i>
+            </li>
+            <li class="d-flex justify-content-between header-bg p-3 ms-3 shadow">
+              <img src="./images/starboy.png" width="40px" height="40">
+              <p class="text-light w-75">I Feel It Coming</p>
+              <i class="far fa-heart text-light"></i>
+              <i class="fas fa-plus text-light"></i>
+            </li>
+          </ol>
+        </section>
+      </div>
+    </main>
+
+    <aside class="right-side">
+      <div class="container ms-4">
+        <section class="">
+        <div class="d-flex justify-content-between">
+          <h4 class="text-light">Similar Artist</h4>
+          <a href="#" style="text-decoration: none;"><p class="text-muted">View All</p></a>
+        </div>
+        <div class="row">
+          <div class="shadow header-bg rounded my-1 similar-artist">
+            <div class="dropdown text-end">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-ellipsis-v text-light"></i>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Add to Queue</a></li>
+                <li><a class="dropdown-item" href="#">Add to Favorite</a></li>
+              </ul>
+            </div>
+            <img src="./images/whats-next.jpg" width="70px" height="70px" class="m-2 d-inline">
+              <span class="text-light me-5 pe-5">What's Next</span>
+              <span class="text-muted ms-4">
+                3:23
+              </span>
+          </div>
+
+          <div class="shadow header-bg rounded my-1 similar-artist">
+            <div class="dropdown text-end">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-ellipsis-v text-light"></i>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Add to Queue</a></li>
+                <li><a class="dropdown-item" href="#">Add to Favorite</a></li>
+              </ul>
+            </div>
+            <img src="./images/whats-next.jpg" width="70px" height="70px" class="m-2 d-inline">
+              <span class="text-light me-5 pe-5">Wants And Needs</span>
+              <span class="text-muted ">
+                3:23
+              </span>
+          </div>
+
+          <div class="shadow header-bg rounded my-1 similar-artist">
+            <div class="dropdown text-end">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-ellipsis-v text-light"></i>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Add to Queue</a></li>
+                <li><a class="dropdown-item" href="#">Add to Favorite</a></li>
+              </ul>
+            </div>
+            <img src="./images/whats-next.jpg" width="70px" height="70px" class="m-2 d-inline">
+              <span class="text-light pe-5">Lemon Pepper Freestyle</span>
+              <span class="text-muted">
+                3:23
+              </span>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="d-flex justify-content-between mt-5">
+          <h4 class="text-light">Recently Played</h4>
+          <a href="#" style="text-decoration: none;"><p class="text-muted">View All</p></a>
+        </div>
+
+        <ol>
+          <li class="d-flex justify-content-between">
+            <img
+              src="./images/drake.jpg"
+              width="35px"
+              height="35px"
+              style="margin-left:-0.5em"
+            />
+            <p class="text-light ms-3">What's Next</p>
+            <i class="far fa-heart ms-5 ps-5 text-light"></i>
+          </li>
+          <li class="d-flex justify-content-between">
+            <img
+              src="./images/latest-bruno.jpg"
+              width="35px"
+              height="35px"
+              style="margin-left: 0.5em;"
+            />
+            <p class="text-light ms-3">Leave the door open</p>
+            <i class="far fa-heart ms-5 ps-5 text-light"></i>
+          </li>
+          <li class="d-flex justify-content-between">
+            <img src="./images/fourth-of-july.jpg" width="35px" height="35px" />
+            <p class="text-light ms-3">Fourth of July</p>
+            <i class="far fa-heart ms-5 ps-5 text-light"></i>
+          </li>
+          <li class="d-flex justify-content-between">
+            <img
+              src="./images/punya-pap.jfif"
+              width="35px"
+              height="35px"
+              style="margin-left: -0.6em;"
+            />
+            <p class="text-light ms-3">Punya Paap</p>
+            <i class="far fa-heart ms-5 ps-5 text-light"></i>
+          </li>
+          <li class="d-flex justify-content-between">
+            <img
+              src="./images/blinding-lights.png"
+              width="35px"
+              height="35px"
+              style="margin-left: 0.3em;"
+            />
+            <p class="text-light ms-3">Blinding Lights</p>
+            <i class="far fa-heart ms-5 ps-5 text-light"></i>
+          </li>
+          <li class="d-flex justify-content-between">
+            <img
+              src="./images/latest-justice.jpg"
+              width="35px"
+              height="35px"
+              style="margin-left: -1.2em"
+            />
+            <p class="text-light ms-3">As I Am</p>
+            <i class="far fa-heart ms-5 ps-5 text-light"></i>
+          </li>
+          <li class="d-flex justify-content-between">
+            <img
+              src="./images/latest-drivers.jpg"
+              width="35px"
+              height="35px"
+              style="margin-left: 0.3em;"
+            />
+            <p class="text-light ms-3">drivers license</p>
+            <i class="far fa-heart ms-5 ps-5 text-light"></i>
+          </li>
+          <li class="d-flex justify-content-between">
+            <img
+              src="./images/willow.jpg"
+              width="35px"
+              height="35px"
+              style="margin-left: -1.3em;"
+            />
+            <p class="text-light ms-3">Willow</p>
+            <i class="far fa-heart ms-5 ps-5 text-light"></i>
+          </li>
+          <li class="d-flex justify-content-between">
+            <img
+              src="./images/mirchi.jpg"
+              width="35px"
+              height="35px"
+              style="margin-left: -1.4em;"
+            />
+            <p class="text-light ms-3">Mirchi</p>
+            <i class="far fa-heart ms-5 ps-5 text-light"></i>
+          </li>
+          <li class="d-flex justify-content-between">
+            <img src="./images/save-the-tears.jpg" width="35px" height="35px" />
+            <p class="text-light ms-3">Save the tears</p>
+            <i class="far fa-heart ms-5 ps-5 text-light"></i>
+          </li>
+          <li class="d-flex justify-content-between">
+            <img
+              src="./images/latest-justice.jpg"
+              width="35px"
+              height="35px"
+              style="margin-left: -1.2em;"
+            />
+            <p class="text-light ms-3">Peaches</p>
+            <i class="far fa-heart ms-5 ps-5 text-light"></i>
+          </li>
+          <li class="d-flex justify-content-between">
+            <img
+              src="./images/mere-tum.jpg"
+              width="35px"
+              height="35px"
+              style="margin-left: -1em;"
+            />
+            <p class="text-light ms-2">Mere Tum</p>
+            <i class="far fa-heart ms-5 ps-5 text-light"></i>
+          </li>
+          <li class="d-flex justify-content-between">
+            <img
+              src="./images/nit.jpg"
+              width="35px"
+              height="35px"
+              style="margin-left: -2em;"
+            />
+            <p class="text-light">Nit Nit</p>
+            <i class="far fa-heart ms-5 ps-5 text-light"></i>
+          </li>
+          <li class="d-flex justify-content-between">
+            <img src="./images/justinb.jpg" width="35px" height="35px" />
+            <p class="text-light ms-3">Love Yourself</p>
+            <i class="far fa-heart ms-5 ps-5 text-light"></i>
+          </li>
+          <li class="d-flex justify-content-between">
+            <img src="./images/drake.jpg" width="35px" height="35px" />
+            <p class="text-light ms-4">Chicago Freestyle</p>
+            <i class="far fa-heart ms-5 ps-3 text-light"></i>
+          </li>
+        </ol>
+      </section>
+
+      </div>
+    </aside>
+  </body>
+</html>
